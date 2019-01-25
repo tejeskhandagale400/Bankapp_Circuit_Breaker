@@ -1,0 +1,6 @@
+package com.moneymoney.web.circuitbreaker;
+
+@Service
+public class WebsiteCircuitBreaker {
+
+}

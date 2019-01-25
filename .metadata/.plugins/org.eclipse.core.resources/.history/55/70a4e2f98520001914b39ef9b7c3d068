@@ -1,0 +1,15 @@
+package com.moneymoney.web.circuitbreaker;
+
+import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.stereotype.Service;
+
+@Service
+public class WebsiteCircuitBreaker {
+	
+	private final RestTemplate restTemplate;
+	
+	public WebsiteCircuitBreaker(RestTemplate rest) {
+		this.restTemplate=rest;
+	}
+	
+}
